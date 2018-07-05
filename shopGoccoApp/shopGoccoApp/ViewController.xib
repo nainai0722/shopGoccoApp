@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="iceCream" destination="gTJ-Oy-Rbp" id="abv-ca-exZ"/>
+                <outlet property="iceFuwafuwa" destination="2X4-Wq-dJQ" id="8cQ-Fy-cFT"/>
+                <outlet property="iceZakuzaku" destination="HcA-ZK-mpX" id="uPm-rX-F03"/>
+                <outlet property="rennyu" destination="VGb-9g-q4g" id="zNe-Id-QYN"/>
+                <outlet property="siropBerry" destination="TXB-qX-Fsh" id="SQu-Jz-Vcv"/>
+                <outlet property="siropCalpis" destination="jF1-Xc-M6s" id="Ocl-NY-YF7"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Gjt-Gz-3rT"/>
+                <outletCollection property="iceCategory" destination="2X4-Wq-dJQ" id="Mtp-7V-c9g"/>
+                <outletCollection property="iceCategory" destination="HcA-ZK-mpX" id="TYx-0j-IA3"/>
+                <outletCollection property="siropCategory" destination="TXB-qX-Fsh" id="Oyw-Nh-CNc"/>
+                <outletCollection property="siropCategory" destination="jF1-Xc-M6s" id="WI3-Rw-ypE"/>
+                <outletCollection property="toppingCategory" destination="VGb-9g-q4g" id="SgG-cz-QWI"/>
+                <outletCollection property="toppingCategory" destination="gTJ-Oy-Rbp" id="LZ3-gL-D8K"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iceBase.png" translatesAutoresizingMaskIntoConstraints="NO" id="KlV-au-9LO">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2X4-Wq-dJQ">
+                    <rect key="frame" x="142" y="306" width="88" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="fuwafuwa.png"/>
+                    <connections>
+                        <action selector="selectIceCategory:" destination="-1" eventType="touchUpInside" id="RT7-gP-hbn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HcA-ZK-mpX">
+                    <rect key="frame" x="238" y="315" width="88" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="zakuzaku.png"/>
+                    <connections>
+                        <action selector="selectIceCategory:" destination="-1" eventType="touchUpInside" id="BJq-yp-KfJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXB-qX-Fsh">
+                    <rect key="frame" x="142" y="354" width="79" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="berry.png"/>
+                    <connections>
+                        <action selector="selectSiropCategory:" destination="-1" eventType="touchUpInside" id="PGy-Zt-DkW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jF1-Xc-M6s">
+                    <rect key="frame" x="243" y="358" width="87" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="calpis.png"/>
+                    <connections>
+                        <action selector="selectSiropCategory:" destination="-1" eventType="touchUpInside" id="oAh-q0-6jA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGb-9g-q4g">
+                    <rect key="frame" x="144" y="394" width="87" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="rennyu.png"/>
+                    <connections>
+                        <action selector="selectToppingCategory:" destination="-1" eventType="touchUpInside" id="MQD-36-YGW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTJ-Oy-Rbp">
+                    <rect key="frame" x="239" y="399" width="71" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button" image="ice.png"/>
+                    <connections>
+                        <action selector="selectToppingCategory:" destination="-1" eventType="touchUpInside" id="SgJ-jc-XkT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="KlV-au-9LO" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="XA9-HH-6k3"/>
+                <constraint firstItem="KlV-au-9LO" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="cTd-p0-YC1"/>
+                <constraint firstItem="KlV-au-9LO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="emk-Zx-nM9"/>
+                <constraint firstItem="KlV-au-9LO" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="gbu-iz-9aV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="berry.png" width="185" height="96"/>
+        <image name="calpis.png" width="209" height="108"/>
+        <image name="fuwafuwa.png" width="209" height="108"/>
+        <image name="ice.png" width="158" height="82"/>
+        <image name="iceBase.png" width="1229" height="1216"/>
+        <image name="rennyu.png" width="209" height="108"/>
+        <image name="zakuzaku.png" width="209" height="108"/>
+    </resources>
+</document>
