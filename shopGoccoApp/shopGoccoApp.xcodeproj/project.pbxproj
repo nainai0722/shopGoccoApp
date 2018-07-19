@@ -38,6 +38,18 @@
 		186E8D5C20ECFF2E00EC60B5 /* ice.png in Resources */ = {isa = PBXBuildFile; fileRef = 186E8D4F20ECFF2E00EC60B5 /* ice.png */; };
 		186E8D5D20ECFF2E00EC60B5 /* ice.png in Resources */ = {isa = PBXBuildFile; fileRef = 186E8D4F20ECFF2E00EC60B5 /* ice.png */; };
 		186E8D5E20ECFF2E00EC60B5 /* ice.png in Resources */ = {isa = PBXBuildFile; fileRef = 186E8D4F20ECFF2E00EC60B5 /* ice.png */; };
+		18728F4220EF55C4003215B6 /* NextCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18728F4020EF55C4003215B6 /* NextCollectionViewController.m */; };
+		18728F4320EF55C4003215B6 /* NextCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18728F4020EF55C4003215B6 /* NextCollectionViewController.m */; };
+		18728F4420EF55C4003215B6 /* NextCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18728F4020EF55C4003215B6 /* NextCollectionViewController.m */; };
+		18728F4520EF55C4003215B6 /* NextCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18728F4120EF55C4003215B6 /* NextCollectionViewController.xib */; };
+		18728F4620EF55C4003215B6 /* NextCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18728F4120EF55C4003215B6 /* NextCollectionViewController.xib */; };
+		18728F4720EF55C4003215B6 /* NextCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18728F4120EF55C4003215B6 /* NextCollectionViewController.xib */; };
+		18728F4B20EF60DF003215B6 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18728F4920EF60DF003215B6 /* OrderViewController.m */; };
+		18728F4C20EF60DF003215B6 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18728F4920EF60DF003215B6 /* OrderViewController.m */; };
+		18728F4D20EF60DF003215B6 /* OrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18728F4920EF60DF003215B6 /* OrderViewController.m */; };
+		18728F4E20EF60DF003215B6 /* OrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18728F4A20EF60DF003215B6 /* OrderViewController.xib */; };
+		18728F4F20EF60DF003215B6 /* OrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18728F4A20EF60DF003215B6 /* OrderViewController.xib */; };
+		18728F5020EF60DF003215B6 /* OrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18728F4A20EF60DF003215B6 /* OrderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +93,12 @@
 		186E8D4D20ECFF2E00EC60B5 /* fuwafuwa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuwafuwa.png; sourceTree = "<group>"; };
 		186E8D4E20ECFF2E00EC60B5 /* zakuzaku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zakuzaku.png; sourceTree = "<group>"; };
 		186E8D4F20ECFF2E00EC60B5 /* ice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ice.png; sourceTree = "<group>"; };
+		18728F3F20EF55C4003215B6 /* NextCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextCollectionViewController.h; sourceTree = "<group>"; };
+		18728F4020EF55C4003215B6 /* NextCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextCollectionViewController.m; sourceTree = "<group>"; };
+		18728F4120EF55C4003215B6 /* NextCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextCollectionViewController.xib; sourceTree = "<group>"; };
+		18728F4820EF60DF003215B6 /* OrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderViewController.h; sourceTree = "<group>"; };
+		18728F4920EF60DF003215B6 /* OrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderViewController.m; sourceTree = "<group>"; };
+		18728F4A20EF60DF003215B6 /* OrderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +155,12 @@
 				186E8D0E20ECFBB400EC60B5 /* ViewController.h */,
 				186E8D0F20ECFBB400EC60B5 /* ViewController.m */,
 				186E8D3D20ECFBDD00EC60B5 /* ViewController.xib */,
+				18728F4820EF60DF003215B6 /* OrderViewController.h */,
+				18728F4920EF60DF003215B6 /* OrderViewController.m */,
+				18728F4A20EF60DF003215B6 /* OrderViewController.xib */,
+				18728F3F20EF55C4003215B6 /* NextCollectionViewController.h */,
+				18728F4020EF55C4003215B6 /* NextCollectionViewController.m */,
+				18728F4120EF55C4003215B6 /* NextCollectionViewController.xib */,
 				186E8D1420ECFBB700EC60B5 /* Assets.xcassets */,
 				186E8D1620ECFBB700EC60B5 /* LaunchScreen.storyboard */,
 				186E8D1920ECFBB700EC60B5 /* Info.plist */,
@@ -295,7 +319,9 @@
 				186E8D4520ECFCBC00EC60B5 /* rennyu.png in Resources */,
 				186E8D5620ECFF2E00EC60B5 /* fuwafuwa.png in Resources */,
 				186E8D5920ECFF2E00EC60B5 /* zakuzaku.png in Resources */,
+				18728F4E20EF60DF003215B6 /* OrderViewController.xib in Resources */,
 				186E8D5C20ECFF2E00EC60B5 /* ice.png in Resources */,
+				18728F4520EF55C4003215B6 /* NextCollectionViewController.xib in Resources */,
 				186E8D5320ECFF2E00EC60B5 /* berry.png in Resources */,
 				186E8D1520ECFBB700EC60B5 /* Assets.xcassets in Resources */,
 			);
@@ -312,7 +338,9 @@
 				186E8D5420ECFF2E00EC60B5 /* berry.png in Resources */,
 				186E8D5A20ECFF2E00EC60B5 /* zakuzaku.png in Resources */,
 				186E8D4620ECFCBC00EC60B5 /* rennyu.png in Resources */,
+				18728F4F20EF60DF003215B6 /* OrderViewController.xib in Resources */,
 				186E8D3F20ECFBDD00EC60B5 /* ViewController.xib in Resources */,
+				18728F4620EF55C4003215B6 /* NextCollectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +355,9 @@
 				186E8D5520ECFF2E00EC60B5 /* berry.png in Resources */,
 				186E8D5B20ECFF2E00EC60B5 /* zakuzaku.png in Resources */,
 				186E8D4720ECFCBC00EC60B5 /* rennyu.png in Resources */,
+				18728F5020EF60DF003215B6 /* OrderViewController.xib in Resources */,
 				186E8D4020ECFBDD00EC60B5 /* ViewController.xib in Resources */,
+				18728F4720EF55C4003215B6 /* NextCollectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +369,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				186E8D1020ECFBB400EC60B5 /* ViewController.m in Sources */,
+				18728F4B20EF60DF003215B6 /* OrderViewController.m in Sources */,
 				186E8D1B20ECFBB700EC60B5 /* main.m in Sources */,
+				18728F4220EF55C4003215B6 /* NextCollectionViewController.m in Sources */,
 				186E8D0D20ECFBB400EC60B5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +381,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				186E8D2520ECFBB700EC60B5 /* shopGoccoAppTests.m in Sources */,
+				18728F4C20EF60DF003215B6 /* OrderViewController.m in Sources */,
+				18728F4320EF55C4003215B6 /* NextCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +391,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				186E8D3020ECFBB800EC60B5 /* shopGoccoAppUITests.m in Sources */,
+				18728F4D20EF60DF003215B6 /* OrderViewController.m in Sources */,
+				18728F4420EF55C4003215B6 /* NextCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
